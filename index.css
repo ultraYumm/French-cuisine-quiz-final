@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 1%;
+}
+
+body {
+  font-family: 'Mali', cursive;
+  color: black;
+  background-image: linear-gradient(white, white,#FFFDD0);
+}
+ 
+
+
+.header {
+  text-align: center;
+}
+
+.topchef {
+  max-width: 15em;
+  width: 20%;
+}
+
+.header li {
+  display: inline-block;
+  margin: 0.5em;
+  list-style: none;
+  font-size: 15px;
+  color: black;
+  
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*margin-top: 3em;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  background-color: #0072BB;
+  border: 0.1em blue;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 90%;
+  height: 300px;
+  font-size: 12px;
+ }
+
+.startQuiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1em;
+  border: 0.1e black;
+  background-color: white;
+  padding-top: 10px;
+}
+
+label {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+  display: inline-block;
+    
+}
+
+h1,
+legend {
+  margin-bottom: 0.5em;
+}
+
+
+.button {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2em;
+  cursor: pointer;
+  font-family: 'Mali', cursive;
+  text-transform: uppercase;
+  border: 0.1em red;
+  background-color: red;
+  color: #ffffff;
+  margin-top: 0.5em;
+  font-size: 1em;
+  /*width: 8em;*/
+    
+}
+
+.button:hover,
+.button:active {
+  background-color: #800020;
+  color: #ffd700;
+  border: 0.1em #800020;
+}
+a {
+  color: #ffd700;
+}
+
+.box {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
+  
+   }
+
+   .backgroundImage {
+    width: 80%;
+  
+  }
+
+   .endImage {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+
+
+  .correctImage {
+    width: 20%;
+ 
+  }
+
+  .incorrectImage {
+    width: 40%;
+    padding: 10px;
+ 
+  }
+
+  .answerImages {
+    width: 50%;
+    padding-top:10px;
+ 
+  }
+   
+
+  .sizeMe {
+    font-size: 0.9em;
+    margin: 0.1em;
+  }
+
+
+@media only screen and (min-width: 320px) {
+  .topchef { 
+    width: 15%;
+ }
+  
+  .correctImage {
+    width: 30%;
+    padding-top: 10px;
+  }
+
+
+ .answerImages {
+    width: 55%;
+   
+  }
+
+  .mainBox {
+    width: 90%;
+    height: 31em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background-color: #0072BB;
+    font-size: 18px;
+  }
+
+  .box {
+    width: 90%;
+    height: 90%;
+    padding: 10px;
+    padding-top: 20px;
+  }
+
+  .button {
+    margin-top: 0.5em;
+    font-size: 1em;
+    width: 8em;
+    height: 2.5em;
+  }
+
+  h1,
+  legend {
+    font-size: 1em;
+  }
+
+  .header li {
+    font-size: 1em;
+  }
+
+  .sizeMe {
+    font-size: 0.9em;
+    margin: 0.1em;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .topchef { 
+    width: 10%;
+ }
+  
+  .backgroundImage {
+    width: 50%;
+ }
+ 
+  .correctImage {
+    width: 10%;
+  }
+
+  .incorrectImage {
+    width: 15%;
+  }
+
+ .answerImages {
+    width: 30%;
+  }
+  
+  .mainBox {
+    width: 29.5em;
+    height: 25.5em;
+    padding-top: 2.6em;
+    padding-bottom: 2.6em;
+    background-color: purple;
+    font-size: 20px;
+  }
+
+  .box {
+    width: 85%;
+    height: 98%;
+  }
+
+  .button {
+    margin-top: 1em;
+    font-size: 1em;
+    width: 10em;
+    height: 2.5em;
+  }
+
+  h1,
+  legend {
+    font-size: 1em;
+  }
+
+  .sizeMe {
+    font-size: 0.9em;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 800px) {  
+   
+  .header li {
+    margin: 1em;
+    font-size: 1.3em;
+  }
+
+  .mainBox {
+    width: 35em;
+    height: 38em;
+    background-color: #0072BB;
+    font-size: 25px;
+  }
+
+  .box {
+    width: 85%;
+    height: 95%;
+  }
+
+  h1,
+  legend {
+    font-size: 1.5em;
+  }
+  label {
+    font-size: 20px;
+  }
+
+  .sizeMe {
+    font-size: 1em;
+  }
+
+  .button {
+    margin-top: 0.5em;
+    font-size: 1em;
+    width: 8em;
+    height: 2.5em;
+  }
+}
+
+
+
